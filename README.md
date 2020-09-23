@@ -2,7 +2,7 @@
 
 #sneakerApp
 Useful for sneaker lovers even a little
-スニーカー愛好家の(今は限定的にAF1）少しでも役に立てれば
+"スニーカー愛好家の(今は限定的にAF1）少しでも役に立てれば"
 
 
 Things you may want to cover:
@@ -17,6 +17,7 @@ ruby '2.5.1'
 * Database creation
 
 # sneakerApp DB設計
+
 ## footwearesテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -26,10 +27,8 @@ ruby '2.5.1'
 |shoelace|string||
 |other_color_used|string||
 |price|integer||
-|
 ### Association
 - has_many :ratings
-
 
 ## ratingsテーブル
 |Column|Type|Options|
