@@ -1,9 +1,8 @@
 # README
 
 #sneakerApp
-"Useful for sneaker lovers even a little"
-["スニーカー愛好家の(今は限定的にAF1）少しでも役に立てれば"]
 
+Useful for sneaker lovers even a little
 
 Things you may want to cover:
 
