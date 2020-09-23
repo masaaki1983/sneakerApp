@@ -17,7 +17,9 @@ ruby '2.5.1'
 * Database creation
 
 # sneakerApp DB設計
+
 ## footwearesテーブル
+
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
@@ -26,17 +28,22 @@ ruby '2.5.1'
 |shoelace|string||
 |other_color_used|string||
 |price|integer||
+
 ### Association
+
 - has_many :ratings
 
 ## ratingsテーブル
+
 |Column|Type|Options|
 |------|----|-------|
 |appearance|string||
 |price|string||
 |comments|text||
 |footwear_id|integer|null: false, foreign_key: true|
+
 ### Association
+
 - belongs_to :footwear
 
 * Database initialization
