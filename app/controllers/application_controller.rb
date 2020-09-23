@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::Base
-  root "footweares#index"
+  root "footwears#index"
 end
