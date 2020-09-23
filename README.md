@@ -1,6 +1,6 @@
 # README
 
-#sneakerApp
+## sneakerApp
 
 Useful for sneaker lovers even a little
 
@@ -16,7 +16,7 @@ ruby '2.5.1'
 
 * Database creation
 
-# sneakerApp DB設計
+## sneakerApp DB設計
 
 ## footwearesテーブル
 
@@ -31,7 +31,7 @@ ruby '2.5.1'
 
 ### Association
 
-- has_many :ratings
+has_many :ratings
 
 ## ratingsテーブル
 
@@ -44,7 +44,7 @@ ruby '2.5.1'
 
 ### Association
 
-- belongs_to :footwear
+belongs_to :footwear
 
 * Database initialization
 
@@ -53,6 +53,3 @@ ruby '2.5.1'
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
-# sneakerApp
