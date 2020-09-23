@@ -1,0 +1,2 @@
+module FootwearesHelper
+end
