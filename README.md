@@ -7,6 +7,7 @@ Useful for sneaker lovers even a little
 Things you may want to cover:
 
 * Ruby version
+
 ruby '2.5.1'
 
 * System dependencies
@@ -16,7 +17,6 @@ ruby '2.5.1'
 * Database creation
 
 # sneakerApp DB設計
-
 ## footwearesテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -38,7 +38,6 @@ ruby '2.5.1'
 |footwear_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :footwear
-
 
 * Database initialization
 
