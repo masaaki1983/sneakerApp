@@ -1,6 +1,6 @@
 # README
 
-<https://github.com/masaaki1983/sneakerApp/issues/1#issue-707072639>
+![スニーカー](9efddb3c98d1109be40bd0f1e1d6521c.jpg)
 
 ## sneakerApp
 
