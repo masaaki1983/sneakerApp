@@ -3,5 +3,5 @@ class Footwear < ApplicationRecord
 
   validates :name, :image, :basecolor, presence: true
 
-  mount_uploader :image, ImageUploader
+  # mount_uploader :image, ImageUploader
 end
