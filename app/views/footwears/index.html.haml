@@ -1,2 +1,10 @@
-%h1 Footwears#index
-%p Find me in app/views/footwears/index.html.haml
+.header
+  .headerMain
+    .headerMain__mainIcon
+      = link_to root_path do
+        = image_tag 'material/logo/sneaker.jpg', class: "mainIcon", size: "250x170"
+        .headerMain__mainIcon--text sneakerApp
+        .headerMain__mainIcon--text--bottom Do you like a sneaker??
+.main
+  .mainView__image
+    = image_tag 'material/pict/body_image.jpg' ,class: "mainImage" ,width:"100%" ,height:"calc(100% - 30%)"
